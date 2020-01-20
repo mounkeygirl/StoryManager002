@@ -1,0 +1,13 @@
+#sideBar{
+  /* Positioning */
+  float: left;
+  display: flex;
+  flex-direction: column;
+  /* Color */
+  background-color: #ffaaaa;
+  /* padding */
+  padding-right: 1em;
+  padding-left: .25em;
+  padding-bottom: .25em;
+
+}
