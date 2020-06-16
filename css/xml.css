@@ -1,0 +1,65 @@
+#totalXML{
+  display: flex;
+}
+#metaData{
+  /* border: double black .5em; */
+  padding: .5em;
+  margin: .25em;
+  /* text-align: center; */
+  min-width: 10em;
+
+
+  border: double gold .4em;
+  text-align: center;
+  background-color: #A52A2A;
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+#primaryContent{
+  background-color: #DEB887;
+  padding: .5em;
+}
+
+.abstract{
+  border: .5em double #A52A2A;
+  background-color: #aaaaaaFF;
+  padding: .4em;
+  padding-top: 0;
+  text-align: center;
+
+}
+
+.abstractTitle{
+  text-align: left;
+  font-style: italic;
+
+}
+
+.aside{
+  margin: 1em;
+  border: 1px solid black;
+  padding:.4em;
+  background-color: yellow;
+  width: 50%;
+  float: right;
+
+}
+
+
+
+#storyTitle{
+  text-align: center;
+}
+
+.text{
+  white-space: pre-line;
+  float:left;
+
+}
+
+#selectionArea{
+  border: double black .3em;
+  padding: .2em;
+}

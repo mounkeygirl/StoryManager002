@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Tenali+Ramakrishna&display=swap');
+
+/* Avaliable google fonts
+font-family: 'Lexend Tera', sans-serif;
+font-family: 'Tenali Ramakrishna', sans-serif;
+
+ */
+
+
+body{
+  background-color: #fffdd0 ;
+
+
+}
+
+h1{
+  text-align: center;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  background-color: maroon;
+  border-radius: .4em;
+  margin-bottom: .2em;
+}
+
+.verticalContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+#pageTitle{
+  text-align: center;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    flex-grow: 8;
+    letter-spacing: .8em;
+    background-color: #ffffffb0;
+    margin: 1em;
+    border-radius: 1em 0 1em 0 ;
+}
+
+#logInStatus{
+  text-align: center;
+  flex-grow: 1;
+  background-color: #ffffff80;
+  margin: 1em;
+  border-radius: 0 .5em 0 .5em ;
+  border: double white 1em;
+}
+
+#content{
+  display: flex;
+}
+
+#outputBox{
+  border-radius: .3em;
+  background-color: #e4a000;
+  min-width: 16em;
+  padding: .2em;
+}
+
+.myForm{
+  display: flex;
+  flex-direction: column;
+
+}
+.submitButton{
+  text-align: center;
+}
+
+.myButton{
+  text-align: center;
+  border: solid black 1px;
+  margin: 0 1em 0 1em;
+  padding: .2em;
+  border-radius: .5em;
+  background: #FFF8DCe0;
+  font-family: 'Lexend Tera', sans-serif;
+  font-size: .8em;
+  color:black;
+}
+#logInStatus a{
+  text-decoration: none;
+
+}
+
+.myButton:hover{
+  background: white;
+}

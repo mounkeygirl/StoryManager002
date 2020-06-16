@@ -1,10 +1,8 @@
-body{
-  background-color: #ff0000;
 
 
-}
 
 
-#outputBox{
-  float:left;
+#relationshipDivs{
+  display: flex;
+  flex-direction: row;
 }

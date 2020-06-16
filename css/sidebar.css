@@ -1,13 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Tenali+Ramakrishna&display=swap');
+
+/* Avaliable google fonts
+font-family: 'Lexend Tera', sans-serif;
+font-family: 'Tenali Ramakrishna', sans-serif;
+
+ */
+
 #sideBar{
   /* Positioning */
-  float: left;
   display: flex;
   flex-direction: column;
   /* Color */
-  background-color: #ffaaaa;
+  background-color: #B22222;
   /* padding */
   padding-right: 1em;
   padding-left: .25em;
   padding-bottom: .25em;
+  border-radius: .5em;
+  width: 11em;
+  margin-right: .2em;
+  font-family: 'Lexend Tera', sans-serif;
+
+
+
+}
+#sideBar .menuItem{
+  border: solid black 1px;
+  border-radius: .3em;
+  background-color: #FF8C00;
+  color: Black;
+  margin: .5em;
+  text-align: center;
+  padding: .2em;
+
+}
+
+#sideBar .menuItem:hover{
+
+  background-color: #800000;
+  color:white;
+}
+
+#sideBar  a {
+  text-decoration: none;
 
 }

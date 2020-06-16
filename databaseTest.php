@@ -12,10 +12,10 @@ function openCharacterWindow($new_value){
 }
 
 //input eader
-include("functions/basic.php");
-loadHeader("Database Test");
+include_once("php/basic.php");
+loadHeader("Character Info");
 
-include_once("functions/login.php");
+include_once("php/login.php");
 
     $sql = "SELECT * FROM Characters";
     $result = $conn->query($sql);
@@ -53,17 +53,8 @@ include_once("functions/login.php");
     }
      ?>
 
-     <div id="demo">Demo</div>
-     <a href="characterInfo.php" target="_blank">Target</a>
   </body>
 
-  <script type="text/javascript">
-    function openCharacterWindow(objButton){
-      window.open('characterInfo.php');
-
-    }
-
-  </script>
 
 
 

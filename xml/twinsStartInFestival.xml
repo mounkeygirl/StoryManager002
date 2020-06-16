@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<story xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <title>Twins Start In Festival</title>
+
+<text>
+    <abstract>
+There exists a family of Pumpkin farmers with a lot of children. The oldest two are twins: a boy and a girl.
+The twins enter a fashion compition at a festival in order to win some mushrooms.
+In order to increase their changes of winning they enter as a pair, the boy reluctantly cross-dressing.
+They run into a couple of witches who also entered the festival in order to win the mushrooms.
+The witches reveal their identies, mistaking the twins for witches as well because of their Pumpkin motif and traces of magic in their outfits.
+Once the mistake is realized, the witches have to backtrack quickly. They tell the twins that they have a natural talent for magic,
+if they hand over the mushrooms they won in the contest and promise keep this whole magic thing a secret the witches will pull some strings
+so they can attend a magic school for girls.
+</abstract>
+<draft>
+The female twin is about to state that her brother isn't a girl, but he cuts her off because he dosen't want to risk not
+getting in on the magic school shindig. The male twin phrases the question as more hypotetical, such as:
+"Girl's school? Does that mean there's a seperate boy's school?"
+The witch states,"Well, boys traditionally carry on whatever special magic runs in their family. I think I heard that
+orginially the idea was that giving young witch a more rounded education would enable her to marry into other magic families more easily,
+There are some special schools for boys too, but they're rare and pretty competative. I know there's a co-ed school in the West Virginia,
+but to be completly frank their achademic program is pitiful."
+</draft>
+<aside>
+Right now my thought is to set it up so the boy has to cross dress to attend the school,
+but a forking path where he goes to the co-ed school might be interesting.
+</aside>
+
+</text>
+
+
+
+<branch>
+  <option>Follow Girl</option>
+  <option xlink:type="simple"
+  xlink:href="boyStartsAtGirlMagicSchool.xml">Follow Boy: Cross-dress and attend Girl's School</option>
+  <option>Follow Boy: Go to co-ed School</option>
+</branch>
+
+
+</story>
